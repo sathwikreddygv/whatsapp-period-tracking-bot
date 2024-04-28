@@ -63,7 +63,7 @@ bot.on('message', async (ctx) => {
 		if (existing_data && existing_data.length) {
 			ctx.reply(`Hey there, good to see you again! 😊 Guess what? I've got your back on the period front! Your last period started on ${new Date(existing_data[0].date).toDateString().substring(4, 15)}.\n\nWant to update your period date? Just reply with "Got my period"!`)
 		} else {
-			ctx.replyWithMarkdown("Hi there! I'm Flow Friend😃, your reliable period tracking bot. I'm here to help you stay on top of your menstrual cycle with ease and convenience. Whether you're looking to track your cycle, or simply need a friendly reminder, I've got you covered. Let's work together to make managing your period a breeze!\n\nWhen you're ready to get started, simply reply with `Got my period` to set your date.")
+			ctx.replyWithMarkdown("Hi there! I'm Flow Friend😃, your reliable period tracking bot `(created by Gv)`. I'm here to help you stay on top of your menstrual cycle with ease and convenience. Whether you're looking to track your cycle, or simply need a friendly reminder, I've got you covered. Let's work together to make managing your period a breeze!\n\nWhen you're ready to get started, simply reply with `Got my period` to set your date.")
 		}
 	}
 })
