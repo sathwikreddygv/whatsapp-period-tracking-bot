@@ -31,7 +31,7 @@ bot.on('message', async (ctx) => {
 	let existing_data = await Model.find({ phone: ctx.message?.chat.id })
 	console.log(existing_data)
 
-	if (text_message?.includes('got my period')) {
+	if (text_message?.includes('got my period')) { 
 		ctx.reply(`Hey, I hope you're doing okay 🌟. I noticed you mentioned your period – when did you start feeling it`, { reply_markup: { keyboard: [['1 - Reply "Today"', '2 - Reply "Yesterday"', '3 - Enter a date (YYYY-MM-DD)']] as any } })
 	} else if (text_message?.includes('today') || text_message?.includes('yesterday') || isValidDateFormat(text_message ? text_message : '')) {
 		let period_date = new Date()
