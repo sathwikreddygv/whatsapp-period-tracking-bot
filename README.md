@@ -1,5 +1,5 @@
 # Flow Friend🩸✨, a Period Tracking Whatsapp Bot
-This repository contains the source code for a WhatsApp bot designed to help users track their menstrual cycles. The bot provides features such as period tracking, reminders, and insights into menstrual health.
+This repository contains the source code for a WhatsApp bot designed to help users track their menstrual cycles. The bot provides features such as period tracking and reminders.
 
 ## Table of Contents
 * [Features](#features)
