@@ -8,7 +8,7 @@ This repository contains the source code for a WhatsApp bot designed to help use
 * [Contributing](#contributing)
 
 ### Features
-* **Set Date**: Allows users to set their menstrual cycle start date.
+* **Set Date**: Allows users to set/update their menstrual cycle start date.
 * **Period Tracking**: Users can always know their last set date by just pinging "Hi".
 * **Reminders**: Sends reminders to users before their next period is expected.
 
@@ -53,7 +53,7 @@ crontab -e
 * You should be able to see replies from the bot
 * Set your period Date (Custom date is also supported)
 * Ping "Hi" anytime to know your last period date
-* If your cron is running, you will receive reminders everyday starting from 26 days after your last period date
+* If your cron is running, you will receive reminders everyday starting from 26 days after your last period date (you can update the date meanwhile)
 
 ### Contributing
 Contributions to the WhatsApp Period Tracking Bot are welcome! To contribute:
