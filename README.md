@@ -3,9 +3,9 @@ This repository contains the source code for a WhatsApp bot designed to help use
 
 ## Table of Contents
 * [Features](#features-heading)
-* Setup
-* Usage
-* Contributing
+* [Setup](#setup-heading)
+* [Usage](#usage-heading)
+* [Contributing](#contributing-heading)
 
 ### Features {#features-heading}
 jbed]   ed   
