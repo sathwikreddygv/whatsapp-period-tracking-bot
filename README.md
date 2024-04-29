@@ -26,8 +26,8 @@ To set up the WhatsApp Period Tracking Bot, follow these steps:
 * Create a .env file in the root directory.
 * Add the following variables:
 ```
-  ID_INSTANCE=""
-  API_TOKEN_INSTANCE=""
+  ID_INSTANCE=<YOUR_ID_INSTANCE>
+  API_TOKEN_INSTANCE=<YOUR_API_TOKEN_INSTANCE>
   MONGODB_URL="mongodb://localhost:27017"
 ```
 4. Run Docker Compose:
@@ -35,15 +35,18 @@ To set up the WhatsApp Period Tracking Bot, follow these steps:
   docker compose up
 ```
 Now you should see 2 docker container running (one for the Node app and the other for Mongodb)  
-5. Setup cron job for reminders
+    
+5. Setup cron job for reminders  
 Create a ```script.sh``` file in root with the following commands inside the file
 ```
 tsc
 node dist/cron_jobs/reminder.js
 ```
+Run the following command
 ```
 crontab -e 
 ```
+Set the cron to run at 5.30am every morning
 ```
 30 5 * * * /home/ubuntu/script.sh > output.txt
 ```
@@ -57,10 +60,5 @@ crontab -e
 
 ### Contributing
 Contributions to the WhatsApp Period Tracking Bot are welcome! To contribute:
-* Fork the repository.
-* Create a new branch (git checkout -b feature-branch).
-* Make your changes.
-* Commit your changes (git commit -am 'Add new feature').
-* Push to the branch (git push origin feature-branch).
-* Create a new Pull Request.
+* Feel free to raise issues/pull requests
 
