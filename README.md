@@ -8,8 +8,8 @@ This repository contains the source code for a WhatsApp bot designed to help use
 * [Contributing](#contributing)
 
 ### Features
-* **Set Date**: Allows users to set/update their menstrual cycle start date.
-* **Period Tracking**: Users can always know their last set date by just pinging "Hi".
+* **Set/Modify Date**: Enables users to set or modify their menstrual cycle's start date.
+* **Period Tracking**: Users can easily retrieve their most recent set date by simply sending a "Hi" message.
 * **Reminders**: Sends reminders to users before their next period is expected.
 
 ### Setup
