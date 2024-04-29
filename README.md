@@ -2,12 +2,12 @@
 This repository contains the source code for a WhatsApp bot designed to help users track their menstrual cycles. The bot provides features such as period tracking, reminders, and insights into menstrual health.
 
 ## Table of Contents
-* [Features](#features-heading)
-* [Setup](#setup-heading)
-* [Usage](#usage-heading)
-* [Contributing](#contributing-heading)
+* [Features](#features)
+* [Setup](#setup)
+* [Usage](#usage)
+* [Contributing](#contributing)
 
-### Features{#features-heading}
+### Features
 jbed]   ed   
 d   
 e   
@@ -35,9 +35,9 @@ dew
 c   
 
 
-### Setup {#setup-heading}
+### Setup
 
-### Usage {#usage-heading}
+### Usage
 
-### Contributing {#contributing-heading}
+### Contributing
 
