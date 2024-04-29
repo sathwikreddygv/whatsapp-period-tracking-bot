@@ -19,8 +19,8 @@ To set up the WhatsApp Period Tracking Bot, follow these steps:
   git clone https://github.com/sathwikreddygv/whatsapp-period-tracking-bot.git
 ```
 2. Create Green Api Account and setup a developer instance for Whatsapp APIs
-* Visit [Green Api Console](https://console.green-api.com)
-* Copy ID_INSTANCE and API_TOKEN_INSTANCE from [Green Api Instances](https://console.green-api.com/instanceList)
+* Visit <a href="https://console.green-api.com" target="_blank">Green Api Console</a>
+* Copy ID_INSTANCE and API_TOKEN_INSTANCE from <a href="https://console.green-api.com/instanceList" target="_blank">Green Api Instances</a>
 
 3. Configure environment variables:
 * Create a .env file in the root directory.
@@ -34,9 +34,9 @@ To set up the WhatsApp Period Tracking Bot, follow these steps:
 ```
   docker compose up
 ```
-Now you should see 2 docker container running (one for the Node app and the other for Mongodb)
+Now you should see 2 docker container running (one for the Node app and the other for Mongodb)  
 5. Setup cron job for reminders
-Create a script.sh
+Create a ```script.sh``` file in root with the following commands inside the file
 ```
 tsc
 node dist/cron_jobs/reminder.js
