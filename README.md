@@ -7,7 +7,7 @@ This repository contains the source code for a WhatsApp bot designed to help use
 * [Usage](#usage-heading)
 * [Contributing](#contributing-heading)
 
-### Features {#features-heading}
+### Features{#features-heading}
 jbed]   ed   
 d   
 e   
