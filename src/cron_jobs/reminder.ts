@@ -1,5 +1,4 @@
-import mongoose from "mongoose";
-import { connectDB } from "../db";
+import mongoose, { connectDB } from "../db";
 import Model from '../models/data';
 import whatsAppClient from "@green-api/whatsapp-api-client";
 import dotenv from 'dotenv';
