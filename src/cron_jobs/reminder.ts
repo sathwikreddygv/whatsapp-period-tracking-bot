@@ -19,7 +19,7 @@ const _main = async() => {
 						const differenceInMilliseconds = new Date().getTime() - new Date(single_record.date).getTime();
 						const millisecondsInDay = 1000 * 60 * 60 * 24; 
 						const differenceInDays = Math.floor(differenceInMilliseconds / millisecondsInDay);
-						if(differenceInDays >= 27 && differenceInDays <= 30){
+						if(differenceInDays >= 26 && differenceInDays <= 36){
 							await restAPI.message.sendMessage(single_record.phone, null, `Hey there! 🌼 Flow Friend is Back with a friendly reminder: Your period is around the corner. It's been ${differenceInDays} days since your last one.\n\nJust reply with "Got my period" to update your date.`)
 						}
 					}
